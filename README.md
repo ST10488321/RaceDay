@@ -1,7 +1,5 @@
 # RaceDay API – Part 2 (PROG6212)
 
-**Student:** Mashau Wavhutu Nditsheni Stacey | **Student No:** ST10488321
-
 A RESTful ASP.NET Core Web API (.NET 8) for managing running, walking and cycling events.
 It uses Entity Framework Core (Code-First) with SQL Server, session-based authentication, role-based access (Organiser / Participant), Swagger, xUnit tests and a GitHub Actions CI pipeline.
 
