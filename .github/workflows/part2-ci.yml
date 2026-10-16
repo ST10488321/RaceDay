@@ -7,9 +7,6 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: Part2-RaceDay-API
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -27,3 +24,4 @@ jobs:
 
       - name: Run unit tests
         run: dotnet test RaceDay.sln --no-build --configuration Release --verbosity normal
+       
